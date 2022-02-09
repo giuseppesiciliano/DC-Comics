@@ -64,6 +64,11 @@ main {
 }
 main h2 {
   color: white;
+  background-color: #0382f9;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  top: -25px;
 }
 main .magazines {
   display: flex;

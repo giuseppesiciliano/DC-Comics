@@ -3,6 +3,11 @@ main {
 
     h2 {
         color: white;
+        background-color: $primary_color;
+        padding: 10px;
+        display: inline-block;
+        position: relative;
+        top: -25px
     }
 
     .magazines {

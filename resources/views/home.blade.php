@@ -14,9 +14,13 @@
 
                 <h2>CURRENT SERIES</h2>
 
+                {{-- Single Magazine --}}
                 @include('components.magazines')
-                
+
             </div>
         </div>
     </section>
 @endsection
+
+
+
