@@ -7,5 +7,5 @@
 
 
 @section('main_content')
-    <h1>ciao</h1>
+    Main
 @endsection
