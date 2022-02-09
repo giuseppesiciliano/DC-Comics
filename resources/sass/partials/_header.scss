@@ -36,12 +36,11 @@ header {
     }
 
     .jumbotron {
-        height: 400px;
+        height: 500px;
         width: 100%;
-        background-color: pink;
-
-        // background-image: url("/public/images/jumbotron.jpg");
+        background-image: url("../images/jumbotron.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        // background-position: center;
     }
 }
