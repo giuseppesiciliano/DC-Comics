@@ -20,6 +20,14 @@
             </div>
         </div>
     </section>
+
+
+    <div class="load-more">
+        <div class="button">
+            LOAD MORE
+        </div>
+    </div>
+    
 @endsection
 
 

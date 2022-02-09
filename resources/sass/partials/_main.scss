@@ -23,4 +23,16 @@ main {
             }
         }
     }
+
+    .load-more {
+        text-align: center;
+        padding: 20px;
+
+        .button {
+            color: white;
+            background-color: $primary_color;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+    }
 }

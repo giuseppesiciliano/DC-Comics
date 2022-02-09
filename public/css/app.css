@@ -81,3 +81,13 @@ main .magazines .single-magazine {
 main .magazines .single-magazine h3 {
   color: white;
 }
+main .load-more {
+  text-align: center;
+  padding: 20px;
+}
+main .load-more .button {
+  color: white;
+  background-color: #0382f9;
+  display: inline-block;
+  padding: 10px 20px;
+}
