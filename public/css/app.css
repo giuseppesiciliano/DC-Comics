@@ -73,3 +73,6 @@ main .magazines .single-magazine {
   width: calc(16.6666666667% - 10px);
   margin: 5px;
 }
+main .magazines .single-magazine h3 {
+  color: white;
+}
