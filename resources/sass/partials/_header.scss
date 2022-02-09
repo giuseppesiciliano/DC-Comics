@@ -1,14 +1,13 @@
 header {
+    width: 100%;
 
     .banner {
         height: 25px;
-        width: 100%;
         background-color: $primary_color;
     }
 
     nav {
         padding: 20px 0;
-        width: 100%;
 
         .content {
             display: flex;
@@ -41,6 +40,5 @@ header {
         background-image: url("../images/jumbotron.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        // background-position: center;
     }
 }
