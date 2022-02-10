@@ -39,9 +39,33 @@ Route::get('/', function () {
                 'name' => 'DC POWER VISA',
                 'thumb' => 'images/buy-comics-subscriptions.png'
             ]
-
         ],
     ];
     
     return view('home', $data);
-});
+})->name('homepage');
+
+
+Route::get('/magazine/{id}', function ($id) {
+    
+    $comics_array = config('comics');
+    $comics_array_to_show = false;
+
+    foreach($comics_array as $comic) {
+        if($comic['id'] == $id) {
+            $comics_array_to_show = $comic;
+        }
+    }
+
+    // Se l'id non esiste diamo errore 404
+    if(!$comics_array_to_show) {
+        abort('404');
+    }
+
+    $data = [
+        'magazine' => $comics_array_to_show
+    ];
+
+
+    return view('magazine', $data);
+})->name('magazine');

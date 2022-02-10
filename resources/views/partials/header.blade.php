@@ -7,7 +7,9 @@
             <div class="content">
 
                 {{-- Logo --}}
-                <img class="logo" src="{{ asset('images/dc-logo.png') }}" alt="DC Comics logo">
+                <a href="{{ route('homepage') }}">
+                    <img class="logo" src="{{ asset('images/dc-logo.png') }}" alt="DC Comics logo">
+                </a>
 
                 {{-- Menu --}}
                 <ul class="menu">
