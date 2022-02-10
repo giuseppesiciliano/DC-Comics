@@ -19,9 +19,39 @@
     </div>
 
     <div class="info-magazine">
-        <div class="details">
+        <div class="container">
+            <div class="content">
 
-            <h1 class="title">{{ $magazine['title'] }}</h1>
+                <div class="details">
+
+                    {{-- Title --}}
+                    <h1 class="title">{{ $magazine['title'] }}</h1>
+    
+                    {{-- Price/Available --}}
+                    <div class="price-available">
+                        <div class="price">
+                            <span>U.S. Price: {{ $magazine['price'] }}</span>
+                            <span>AVAILABLE</span>
+                        </div>
+    
+                        {{-- <div class="check-availability">
+                            <a href="#">
+                                Check Availability
+                            </a>
+                        </div> --}}
+                    </div>
+    
+                    {{-- Description --}}
+                    <div class="description">
+                        <p>{{ $magazine['description'] }}</p>
+                    </div>
+                </div>
+    
+                <div class="adv">
+                    <img src="{{ asset('images/advmia.png') }}" alt="">
+                </div>
+            </div>
+
         </div>
     </div>
 
