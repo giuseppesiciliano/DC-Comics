@@ -1,5 +1,8 @@
 main {
-    background-color: $secondary_color;
+    &.bgc-grey {
+        background-color: $secondary_color; 
+    }
+    // background-color: $secondary_color;
 
     h2 {
         color: white;

@@ -5,6 +5,9 @@
     Home
 @endsection
 
+@section('main_classes')
+bgc-grey
+@endsection
 
 @section('main_content')
     <section>
