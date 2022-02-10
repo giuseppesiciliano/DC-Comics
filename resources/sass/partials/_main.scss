@@ -60,4 +60,24 @@ main {
             }
         }
     }
+
+
+    // Single Magazine
+    .banner-blue {
+        height: 80px;
+        background-color: $primary_color;
+
+        .thumb-magazine {
+            position: relative;
+            top: -250px;
+            display: inline-block;
+            border: 1px solid white;
+            text-align: center;
+            background-color: #01a9d9;
+
+            h5 {
+                color: white;
+            }
+        }
+    }
 }

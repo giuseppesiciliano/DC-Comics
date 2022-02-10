@@ -109,6 +109,21 @@ main .banner-service ul li img {
   width: 50px;
   margin: 40px 20px;
 }
+main .banner-blue {
+  height: 80px;
+  background-color: #0382f9;
+}
+main .banner-blue .thumb-magazine {
+  position: relative;
+  top: -250px;
+  display: inline-block;
+  border: 1px solid white;
+  text-align: center;
+  background-color: #01a9d9;
+}
+main .banner-blue .thumb-magazine h5 {
+  color: white;
+}
 
 footer {
   width: 100%;
