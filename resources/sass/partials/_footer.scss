@@ -1,0 +1,37 @@
+footer {
+    width: 100%;
+
+    .footer-links {
+        height: 400px;
+
+        background-image: url("../images/footer-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .content {
+            display: flex;
+
+            .links {
+                margin-right: 50px;
+
+                h3 {
+                    padding-top: 20px;
+                    color: white;
+                }
+                li {
+                    margin: 10px 0;
+
+                    a {
+                        text-decoration: none;
+                        color: grey; 
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-banner {
+        height: 130px;
+        background-color: #303030;
+    }
+}

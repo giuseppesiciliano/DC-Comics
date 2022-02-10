@@ -17,7 +17,30 @@ Route::get('/', function () {
     $comics_array = config('comics');
 
     $data = [
-        'comics' => $comics_array
+        'comics' => $comics_array,
+        'services' => [
+            [
+                'name' => 'DIGITAL COMICS',
+                'thumb' => 'images/buy-comics-digital-comics.png'
+            ],
+            [
+                'name' => 'DC MERCHANDISE',
+                'thumb' => 'images/buy-comics-merchandise.png'
+            ],
+            [
+                'name' => 'SUBSCRIPTION',
+                'thumb' => 'images/buy-comics-subscriptions.png'
+            ],
+            [
+                'name' => 'COMICS SHOP LOCATOR',
+                'thumb' => 'images/buy-comics-shop-locator.png'
+            ],
+            [
+                'name' => 'DC POWER VISA',
+                'thumb' => 'images/buy-comics-subscriptions.png'
+            ]
+
+        ]
     ];
     return view('home', $data);
 });

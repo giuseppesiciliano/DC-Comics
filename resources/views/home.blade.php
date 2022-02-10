@@ -27,6 +27,9 @@
             LOAD MORE
         </div>
     </div>
+
+
+    @include('components.services')
     
 @endsection
 

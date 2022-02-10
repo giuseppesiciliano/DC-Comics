@@ -33,6 +33,28 @@ main {
             background-color: $primary_color;
             display: inline-block;
             padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+
+    .banner-service {
+        background-color: $primary_color;
+
+        ul {
+            display: flex;
+            justify-content: center;
+
+            li {
+                display: flex;
+                align-items: center;
+                margin-right: 50px;
+                color: white;
+
+                img {
+                    width: 50px;
+                    margin: 40px 20px;
+                }
+            }
         }
     }
 }

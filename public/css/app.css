@@ -90,4 +90,53 @@ main .load-more .button {
   background-color: #0382f9;
   display: inline-block;
   padding: 10px 20px;
+  cursor: pointer;
+}
+main .banner-service {
+  background-color: #0382f9;
+}
+main .banner-service ul {
+  display: flex;
+  justify-content: center;
+}
+main .banner-service ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  color: white;
+}
+main .banner-service ul li img {
+  width: 50px;
+  margin: 40px 20px;
+}
+
+footer {
+  width: 100%;
+}
+footer .footer-links {
+  height: 400px;
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .footer-links .content {
+  display: flex;
+}
+footer .footer-links .content .links {
+  margin-right: 50px;
+}
+footer .footer-links .content .links h3 {
+  padding-top: 20px;
+  color: white;
+}
+footer .footer-links .content .links li {
+  margin: 10px 0;
+}
+footer .footer-links .content .links li a {
+  text-decoration: none;
+  color: grey;
+}
+footer .footer-banner {
+  height: 130px;
+  background-color: #303030;
 }
