@@ -31,7 +31,39 @@ footer {
     }
 
     .footer-banner {
-        height: 130px;
         background-color: #303030;
+        
+        .content {
+            height: 130px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .button {
+                font-size: 20px;
+                color: white;
+                border: 2px solid $primary_color;
+                padding: 10px;
+            }
+
+            .follow-media {
+                display: flex;
+                align-items: center;
+                
+                span {
+                    color: $primary_color;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                ul {
+                    display: flex;
+
+                    li {
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
     }
 }

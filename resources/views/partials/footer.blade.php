@@ -132,6 +132,48 @@
     </div>
     
     <div class="footer-banner">
-        
+        <div class="container">
+            <div class="content">
+
+                <span class="button">SIGN-UP NOW!</span>
+
+                <div class="follow-media">
+                    <span>FOLLOW US</span>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/footer-facebook.png" alt="facebook">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="images/footer-twitter.png" alt="twitter">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="images/footer-youtube.png" alt="youtube">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="images/footer-pinterest.png" alt="pinterest">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="images/footer-periscope.png" alt="periscope">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
     </div>
 </footer>

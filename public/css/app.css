@@ -137,6 +137,32 @@ footer .footer-links .content .links li a {
   color: grey;
 }
 footer .footer-banner {
-  height: 130px;
   background-color: #303030;
+}
+footer .footer-banner .content {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-banner .content .button {
+  font-size: 20px;
+  color: white;
+  border: 2px solid #0382f9;
+  padding: 10px;
+}
+footer .footer-banner .content .follow-media {
+  display: flex;
+  align-items: center;
+}
+footer .footer-banner .content .follow-media span {
+  color: #0382f9;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .footer-banner .content .follow-media ul {
+  display: flex;
+}
+footer .footer-banner .content .follow-media ul li {
+  padding: 0 10px;
 }

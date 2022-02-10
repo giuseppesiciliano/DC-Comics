@@ -40,7 +40,8 @@ Route::get('/', function () {
                 'thumb' => 'images/buy-comics-subscriptions.png'
             ]
 
-        ]
+        ],
     ];
+    
     return view('home', $data);
 });
